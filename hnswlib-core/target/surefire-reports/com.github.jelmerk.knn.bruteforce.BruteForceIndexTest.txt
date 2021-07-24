@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.github.jelmerk.knn.bruteforce.BruteForceIndexTest
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 s - in com.github.jelmerk.knn.bruteforce.BruteForceIndexTest

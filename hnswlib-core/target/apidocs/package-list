@@ -1,0 +1,4 @@
+com.github.jelmerk.knn
+com.github.jelmerk.knn.bruteforce
+com.github.jelmerk.knn.hnsw
+com.github.jelmerk.knn.util

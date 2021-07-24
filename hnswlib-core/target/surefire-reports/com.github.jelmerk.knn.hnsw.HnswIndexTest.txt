@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.github.jelmerk.knn.hnsw.HnswIndexTest
+-------------------------------------------------------------------------------
+Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.278 s - in com.github.jelmerk.knn.hnsw.HnswIndexTest

@@ -1,0 +1,5 @@
+com/github/jelmerk/knn/DistanceFunctionsTest.class
+com/github/jelmerk/knn/bruteforce/BruteForceIndexTest.class
+com/github/jelmerk/knn/TestItem.class
+com/github/jelmerk/knn/ProgressUpdate.class
+com/github/jelmerk/knn/hnsw/HnswIndexTest.class

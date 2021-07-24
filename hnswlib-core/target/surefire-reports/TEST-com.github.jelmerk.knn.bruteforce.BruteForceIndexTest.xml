@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.github.jelmerk.knn.bruteforce.BruteForceIndexTest" time="0.044" tests="13" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/wanghongquan/IdeaProjects/hnswlib/hnswlib-core/target/test-classes:/Users/wanghongquan/IdeaProjects/hnswlib/hnswlib-core/target/classes:/Users/wanghongquan/app/apache-maven-3.6.3/repository/com/stepstone/search/hnswlib/jna/hnswlib-jna/1.3.0/hnswlib-jna-1.3.0.jar:/Users/wanghongquan/app/apache-maven-3.6.3/repository/net/java/dev/jna/jna/5.5.0/jna-5.5.0.jar:/Users/wanghongquan/app/apache-maven-3.6.3/repository/org/eclipse/collections/eclipse-collections/10.2.0/eclipse-collections-10.2.0.jar:/Users/wanghongquan/app/apache-maven-3.6.3/repository/org/eclipse/collections/eclipse-collections-api/10.2.0/eclipse-collections-api-10.2.0.jar:/Users/wanghongquan/app/apache-maven-3.6.3/repository/com/github/jelmerk/hnswlib-utils/0.0.46/hnswlib-utils-0.0.46.jar:/Users/wanghongquan/app/apache-maven-3.6.3/repository/org/hamcrest/hamcrest-library/2.1/hamcrest-library-2.1.jar:/Users/wanghongquan/app/apache-maven-3.6.3/repository/org/hamcrest/hamcrest-core/2.1/hamcrest-core-2.1.jar:/Users/wanghongquan/app/apache-maven-3.6.3/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/wanghongquan/app/apache-maven-3.6.3/repository/org/junit/jupiter/junit-jupiter-api/5.5.2/junit-jupiter-api-5.5.2.jar:/Users/wanghongquan/app/apache-maven-3.6.3/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/wanghongquan/app/apache-maven-3.6.3/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/wanghongquan/app/apache-maven-3.6.3/repository/org/junit/platform/junit-platform-commons/1.5.2/junit-platform-commons-1.5.2.jar:/Users/wanghongquan/app/apache-maven-3.6.3/repository/org/junit/jupiter/junit-jupiter-engine/5.5.2/junit-jupiter-engine-5.5.2.jar:/Users/wanghongquan/app/apache-maven-3.6.3/repository/org/junit/platform/junit-platform-engine/1.5.2/junit-platform-engine-1.5.2.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/wanghongquan/IdeaProjects/hnswlib/hnswlib-core/target/surefire/surefirebooter4250938402290053840.jar /Users/wanghongquan/IdeaProjects/hnswlib/hnswlib-core/target/surefire 2021-07-20T17-08-49_334-jvmRun1 surefire7475018202836153505tmp surefire_03710462568899497680tmp"/>
+    <property name="surefire.test.class.path" value="/Users/wanghongquan/IdeaProjects/hnswlib/hnswlib-core/target/test-classes:/Users/wanghongquan/IdeaProjects/hnswlib/hnswlib-core/target/classes:/Users/wanghongquan/app/apache-maven-3.6.3/repository/com/stepstone/search/hnswlib/jna/hnswlib-jna/1.3.0/hnswlib-jna-1.3.0.jar:/Users/wanghongquan/app/apache-maven-3.6.3/repository/net/java/dev/jna/jna/5.5.0/jna-5.5.0.jar:/Users/wanghongquan/app/apache-maven-3.6.3/repository/org/eclipse/collections/eclipse-collections/10.2.0/eclipse-collections-10.2.0.jar:/Users/wanghongquan/app/apache-maven-3.6.3/repository/org/eclipse/collections/eclipse-collections-api/10.2.0/eclipse-collections-api-10.2.0.jar:/Users/wanghongquan/app/apache-maven-3.6.3/repository/com/github/jelmerk/hnswlib-utils/0.0.46/hnswlib-utils-0.0.46.jar:/Users/wanghongquan/app/apache-maven-3.6.3/repository/org/hamcrest/hamcrest-library/2.1/hamcrest-library-2.1.jar:/Users/wanghongquan/app/apache-maven-3.6.3/repository/org/hamcrest/hamcrest-core/2.1/hamcrest-core-2.1.jar:/Users/wanghongquan/app/apache-maven-3.6.3/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/wanghongquan/app/apache-maven-3.6.3/repository/org/junit/jupiter/junit-jupiter-api/5.5.2/junit-jupiter-api-5.5.2.jar:/Users/wanghongquan/app/apache-maven-3.6.3/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/wanghongquan/app/apache-maven-3.6.3/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/wanghongquan/app/apache-maven-3.6.3/repository/org/junit/platform/junit-platform-commons/1.5.2/junit-platform-commons-1.5.2.jar:/Users/wanghongquan/app/apache-maven-3.6.3/repository/org/junit/jupiter/junit-jupiter-engine/5.5.2/junit-jupiter-engine-5.5.2.jar:/Users/wanghongquan/app/apache-maven-3.6.3/repository/org/junit/platform/junit-platform-engine/1.5.2/junit-platform-engine-1.5.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/wanghongquan"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/wanghongquan/IdeaProjects/hnswlib/hnswlib-core"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/wanghongquan/IdeaProjects/hnswlib/hnswlib-core/target/surefire/surefirebooter4250938402290053840.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_231-b11"/>
+    <property name="user.name" value="wanghongquan"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.16"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/wanghongquan/app/apache-maven-3.6.3/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/7y/64z84dxn4mq7j5d4w3t4l2mc0000gn/T/"/>
+    <property name="java.version" value="1.8.0_231"/>
+    <property name="user.dir" value="/Users/wanghongquan/IdeaProjects/hnswlib/hnswlib-core"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/wanghongquan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.231-b11"/>
+    <property name="java.ext.dirs" value="/Users/wanghongquan/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="findNearest" classname="com.github.jelmerk.knn.bruteforce.BruteForceIndexTest" time="0.004"/>
+  <testcase name="returnsSize" classname="com.github.jelmerk.knn.bruteforce.BruteForceIndexTest" time="0.001"/>
+  <testcase name="saveAndLoadIndex" classname="com.github.jelmerk.knn.bruteforce.BruteForceIndexTest" time="0.025"/>
+  <testcase name="removeWithOldVersionIgnored" classname="com.github.jelmerk.knn.bruteforce.BruteForceIndexTest" time="0"/>
+  <testcase name="removeUnknownItem" classname="com.github.jelmerk.knn.bruteforce.BruteForceIndexTest" time="0.001"/>
+  <testcase name="addAndGet" classname="com.github.jelmerk.knn.bruteforce.BruteForceIndexTest" time="0"/>
+  <testcase name="addNewerItem" classname="com.github.jelmerk.knn.bruteforce.BruteForceIndexTest" time="0"/>
+  <testcase name="findNeighbors" classname="com.github.jelmerk.knn.bruteforce.BruteForceIndexTest" time="0.003"/>
+  <testcase name="returnDimensions" classname="com.github.jelmerk.knn.bruteforce.BruteForceIndexTest" time="0"/>
+  <testcase name="removeItem" classname="com.github.jelmerk.knn.bruteforce.BruteForceIndexTest" time="0.001"/>
+  <testcase name="addAllCallsProgressListener" classname="com.github.jelmerk.knn.bruteforce.BruteForceIndexTest" time="0.001"/>
+  <testcase name="returnsItems" classname="com.github.jelmerk.knn.bruteforce.BruteForceIndexTest" time="0.002"/>
+  <testcase name="addOlderItem" classname="com.github.jelmerk.knn.bruteforce.BruteForceIndexTest" time="0.001"/>
+</testsuite>
